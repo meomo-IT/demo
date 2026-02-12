@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="870" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 300">
+  <style type="text/css">
+    .main-text { fill: #003366; font-family: 'Arial Black', Gadget, sans-serif; font-size: 54px; font-weight: bold; }
+    .sub-text { fill: #999999; font-family: Arial, sans-serif; font-size: 22px; letter-spacing: 1px; }
+    .shield-dark { fill: #003366; }
+    .shield-light { fill: #CCCCCC; }
+    .circuit-line { stroke: #FFFFFF; stroke-width: 2; fill: none; }
+  </style>
+
+  <!-- Biểu tượng hình khiên cách điệu mạch điện tử -->
+  <g transform="translate(50, 50)">
+    <!-- Thân khiên -->
+    <path class="shield-dark" d="M60,10 L110,30 L110,100 C110,140 85,170 60,185 C35,170 10,140 10,100 L10,30 Z"/>
+    <!-- Chi tiết mạch điện bên trong -->
+    <path class="shield-light" d="M30,50 L90,50 L90,120 L60,150 L30,120 Z" opacity="0.6"/>
+    <circle fill="#FFFFFF" cx="60" cy="90" r="15"/>
+    <line x1="60" y1="50" x2="60" y2="75" class="circuit-line"/>
+    <line x1="60" y1="105" x2="60" y2="130" class="circuit-line"/>
+    <line x1="30" y1="90" x2="45" y2="90" class="circuit-line"/>
+    <line x1="75" y1="90" x2="90" y2="90" class="circuit-line"/>
+  </g>
+
+  <!-- Phần văn bản bên phải -->
+  <g transform="translate(200, 110)">
+    <text x="0" y="0" class="main-text">TTCG-WAZUH-SIEM</text>
+    <text x="0" y="45" class="sub-text">The Open source Security platform</text>
+  </g>
+</svg>
