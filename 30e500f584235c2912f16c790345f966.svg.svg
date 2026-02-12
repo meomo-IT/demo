@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="870" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 870 300">
+  <style type="text/css">
+    .st0 { fill: #003366; } /* Màu xanh đậm cho chữ chính và khiên */
+    .st1 { fill: #999999; font-family: Arial, sans-serif; font-size: 24px; letter-spacing: 1px; } /* Màu xám cho slogan */
+    .st2 { fill: #FFFFFF; } /* Màu trắng cho chi tiết trong khiên */
+    .st3 { fill: #CCCCCC; } /* Màu xám nhạt cho chi tiết phụ trong khiên */
+  </style>
+
+  <g class="layer">
+    <!-- BIỂU TƯỢNG HÌNH KHIÊN (Phía bên trái) -->
+    <g id="shield_icon" transform="translate(40, 50)">
+      <!-- Thân khiên -->
+      <path class="st0" d="M60,10 L110,30 L110,100 C110,140 85,170 60,185 C35,170 10,140 10,100 L10,30 Z"/>
+      <!-- Chi tiết hình chữ nhật xám nhạt bên trong -->
+      <rect class="st3" x="35" y="60" width="50" height="60" rx="5"/>
+      <!-- Hình tròn trắng trung tâm -->
+      <circle class="st2" cx="60" cy="90" r="15"/>
+      <!-- Hai đường kẻ trắng bảo vệ -->
+      <rect class="st2" x="40" y="88" width="10" height="4" rx="2"/>
+      <rect class="st2" x="70" y="88" width="10" height="4" rx="2"/>
+    </g>
+
+    <!-- PHẦN VĂN BẢN (Phía bên phải) -->
+    <g id="text_group" transform="translate(180, 120)">
+      <!-- Chữ chính: TTCG-WAZUH-SIEM -->
+      <text x="0" y="0" class="st0" font-family="Arial Black, Arial, sans-serif" font-size="64" font-weight="bold">TTCG-WAZUH-SIEM</text>
+      <!-- Slogan: The Open source Security platform -->
+      <text x="0" y="50" class="st1">The Open source Security platform</text>
+    </g>
+  </g>
+</svg>
